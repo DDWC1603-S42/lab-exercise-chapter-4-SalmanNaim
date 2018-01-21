@@ -1,12 +1,15 @@
+//name: AHMAD SALMAN NAIM BIN MOHD ATAN   //matric no.: A17DW0712
 //convert the program below to a "do...while" loop
-
+#include <iostream>
+using namespace std;
+int main(){
 int n;
-cout<<"Enter a non-negative integer: ";
-cin>>n;
 
-while(n<0)
-{
-	cout<<"The integer your entered is negative."<<endl;
-	cout<<"Enter a non-negative integer";
-	cin>>n;
+do {
+	cout<<"Enter a positive integer: ";
+        cin>>n;
+	cout<<"The integer your entered is non-negative."<<endl;
+	cout<<"Enter 0 or less to stop this program."<<endl<<endl;
+}
+	while(n>0);
 }
