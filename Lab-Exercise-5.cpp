@@ -1,6 +1,6 @@
+//name: AHMAD SALMAN NAIM BIN MOHD ATAN   //matric no.: A17DW0712
 //Get out from this program
 //find a way to fix and complete this program. good luck.
-
 #include <iostream>
 using namespace std;
 int main()
